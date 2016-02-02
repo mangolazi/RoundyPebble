@@ -1,0 +1,113 @@
+{
+    "uuid": "6eaa65b8-667a-44ba-9874-7f635179123a",
+    "shortName": "Roundy",
+    "longName": "Roundy",
+    "companyName": "Mango Lazi",
+    "versionCode": 220,
+    "versionLabel": "2.2",
+    "watchapp": {
+        "watchface": true
+    },
+    "capabilities": [ "configurable" ],
+    "appKeys": {
+        "WEATHER_ICON": 0,
+        "WEATHER_WEATHERDATA": 1,
+        "WEATHER_MISC": 2,
+        "WEATHER_MISC2": 3,
+        "WEATHER_MISC3": 4,
+        "CONFIG_SECONDS": 5,
+        "CONFIG_HOURVIBES": 6,
+        "CONFIG_REVERSE": 7
+    },
+    "resources": {
+        "media": [
+                  {
+                  "type": "font",
+                  "name": "FONT_ROUNDY_18",
+                  "file": "fonts/roundy.ttf"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_CLEAR_DAY",
+                  "file": "img/cleard.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_CLEAR_DAY_REV",
+                  "file": "img/cleard-rev.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_CLEAR_NIGHT",
+                  "file": "img/clearn.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_CLEAR_NIGHT_REV",
+                  "file": "img/clearn-rev.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_CLOUD",
+                  "file": "img/cloud.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_CLOUD_REV",
+                  "file": "img/cloud-rev.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_LOADING",
+                  "file": "img/loading.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_LOADING_REV",
+                  "file": "img/loading-rev.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_MIST_DAY",
+                  "file": "img/mistd.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_MIST_DAY_REV",
+                  "file": "img/mistd-rev.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_MIST_NIGHT",
+                  "file": "img/mistn.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_MIST_NIGHT_REV",
+                  "file": "img/mistn-rev.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_RAIN",
+                  "file": "img/rain.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_RAIN_REV",
+                  "file": "img/rain-rev.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_SNOW",
+                  "file": "img/snow.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_SNOW_REV",
+                  "file": "img/snow-rev.png"
+                  }
+                  ]
+    },
+    "targetPlatforms": [ "aplite", "basalt" ],
+    "sdkVersion": "3"
+}
